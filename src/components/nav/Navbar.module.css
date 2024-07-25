@@ -1,0 +1,63 @@
+.nav{
+    display: flex;
+    height: 5em;
+    background-color: black;
+    width: 100vw;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.options{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    gap: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.options>*{
+    margin-left: 10px;
+}
+
+.options>div{
+
+}
+
+.logo{
+    height: 50px;
+    width: 50px;
+}
+
+.auth{
+    display: flex;
+    margin-right: 10px;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.auth>button{
+    font-size: 15px;
+    font-weight: bolder;
+    border-radius: 10px;
+    width: 100px;
+    height: 3em;
+}
+
+.searchCont{
+    height: 50%;
+    display: flex;
+    align-items: center;
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 20px;
+}
+.searchCont>input{
+    margin-left: 10px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    outline: none;
+}
